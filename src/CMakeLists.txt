@@ -5,7 +5,7 @@ set(SOURCES
 )
 
 set(INCLUDE_DIRS
-    ${${CONAN_INCLUDE_DIRS}}
+    ${CONAN_INCLUDE_DIRS}
 )
 
 add_executable(${TARGET} ${SOURCES})
